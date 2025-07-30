@@ -1,0 +1,77 @@
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(#ffc107, #ff4081);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .profile-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #272757;
+        }
+        .profile-picture img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #ffc107;
+        }
+        .change-btn {
+            margin-top: 10px;
+            color: #ff4081;
+            cursor: pointer;
+        }
+        .profile-info {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .profile-info label {
+            font-weight: bold;
+            color: #272757;
+        }
+        .input-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .profile-info input {
+            width: 75%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .edit-btn {
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .save-btn, .back-btn {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .save-btn {
+            background: #db064d;
+            color: white;
+        }
+        .back-btn {
+            background: linear-gradient(to right, #ffc107, #ff4081);
+            color: white;
+        } 
